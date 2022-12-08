@@ -1,0 +1,25 @@
+{
+    "name": "jobpkdo-server",
+    "version": 2,
+    "public": true,
+    "builds": [
+      {
+        "src": "index.ts",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/robots.txt",
+        "status": 204
+      },
+      {
+        "src": "/favicon.ico",
+        "status": 204
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.ts"
+      }
+    ]
+  }

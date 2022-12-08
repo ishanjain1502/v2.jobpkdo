@@ -15,7 +15,7 @@
 		"mongodb",
 		"nodejs"
 	],
-	"author": "Gulshan Aggarwal",
+	"author": "ishanjain1502 && Gulshan Aggarwal",
 	"license": "ISC",
 	"dependencies": {
 		"aws-sdk": "^2.1231.0",
